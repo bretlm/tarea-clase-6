@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tarea clase 6</title>
+</head>
+<body>
+
+    <form>
+    
+    <label for="numbers">¿Cuántos integrantes hay en tu familia?</label>
+    <input type="number" name="numbers" id="amount-members">
+    <button id="send-info">Enviar</button>
+
+    
+    
+    
+
+    <div class="total-members">  
+
+    </div>
+
+    <div>
+        <span><button id="calculate" class="hidden">Calcular</button></span>
+        <span><button id="reset" class="hidden">Reset</button></span>
+    </div>
+    
+    <div id="results" class="hidden"> 
+        <p>El integrante de menor edad tiene: <strong id="youngest-age"></strong> años</p>
+        <p>El integrantes de mayor edad tiene: <strong id="oldest-age"></strong> años</p>
+        <p>El promedio de edad es de: <strong id="average-age"></strong> años</p>
+    </div>
+    </form>
+
+    
+
+
+
+    <script type="text/javascript" src="calculations.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
